@@ -1,0 +1,40 @@
+<story path="stories/login.storyConverted" title="Funcionalidade: Acesso ao Sistema">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">a tela inicial aparece&#231;a para mim</inOrderTo>
+  <asA keyword="As a">usu&#225;rio</asA>
+  <iWantTo keyword="I want to">acessar o sistema</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Acesso ao Sistema Com Usu&#225;rio Inv&#225;lido">
+<step outcome="successful">Dado que vou para a tela &quot;Tela de Login&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido no &quot;R&#243;tulo Usu&#225;rio&quot; o valor &quot;Usu&#225;rio:&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido no &quot;R&#243;tulo Senha&quot; o valor &quot;Senha:&quot;</step>
+<step outcome="successful">Quando informo &quot;demoiselleX&quot; no campo &quot;Campo Usu&#225;rio&quot;</step>
+<step outcome="successful">E informo &quot;behave&quot; no campo &quot;Campo Senha&quot;</step>
+<step outcome="successful">Quando clico em &quot;Entrar&quot;</step>
+<step outcome="successful">Ent&#227;o vou para a tela &quot;Mensagem de Erro&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido &quot;Usu&#225;rio ou senha Inv&#225;lida&quot;</step>
+<step outcome="successful">Ent&#227;o clico em &quot;OK&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Acesso ao Sistema Com Senha Inv&#225;lida">
+<step outcome="successful">Dado que vou para a tela &quot;Tela de Login&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido no &quot;R&#243;tulo Usu&#225;rio&quot; o valor &quot;Usu&#225;rio:&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido no &quot;R&#243;tulo Senha&quot; o valor &quot;Senha:&quot;</step>
+<step outcome="successful">Quando informo &quot;demoiselle&quot; no campo &quot;Campo Usu&#225;rio&quot;</step>
+<step outcome="successful">E informo &quot;behaveX&quot; no campo &quot;Campo Senha&quot;</step>
+<step outcome="successful">Quando clico em &quot;Entrar&quot;</step>
+<step outcome="successful">Ent&#227;o vou para a tela &quot;Mensagem de Erro&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido &quot;Usu&#225;rio ou senha Inv&#225;lida&quot;</step>
+<step outcome="successful">Ent&#227;o clico em &quot;OK&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Acesso ao Sistema Usu&#225;rio e Senha V&#225;lida">
+<step outcome="successful">Dado que vou para a tela &quot;Tela de Login&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido no &quot;R&#243;tulo Usu&#225;rio&quot; o valor &quot;Usu&#225;rio:&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido no &quot;R&#243;tulo Senha&quot; o valor &quot;Senha:&quot;</step>
+<step outcome="successful">Quando informo &quot;demoiselle&quot; no campo &quot;Campo Usu&#225;rio&quot;</step>
+<step outcome="successful">E informo &quot;behave&quot; no campo &quot;Campo Senha&quot;</step>
+<step outcome="successful">Quando clico em &quot;Entrar&quot;</step>
+<step outcome="successful">Ent&#227;o vou para a tela &quot;Seja Bem Vindo&quot;</step>
+<step outcome="successful">Ent&#227;o ser&#225; exibido &quot;Teste do Demoiselle Behave Ok!&quot;</step>
+<step outcome="successful">Ent&#227;o clico em &quot;OK&quot;</step>
+</scenario>
+</story>
